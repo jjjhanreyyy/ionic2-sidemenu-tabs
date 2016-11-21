@@ -17,21 +17,21 @@ ionic serve -l
 1. ionic start ProjectName --v2
 2. navigate to app/
 3. create new file app.component.html
-4. open app.component.ts and modify::
+4. open app.component.ts and modify:
 ```
 template: `<ion-nav [root]="rootPage"></ion-nav>`
-```
+
 to
-```
+
 templateUrl: 'app.component.html'
 ```
+
 ```
 rootPage: any = TabsPage;
-```
+
 to
-```
+
 @ViewChild(Nav) nav: Nav;
   rootPage: any = TabsPage;
   pages: Array<{title: string, component: any}>;
-
 ```
