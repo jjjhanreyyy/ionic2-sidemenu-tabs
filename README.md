@@ -13,6 +13,23 @@ or
 ionic serve -l 
 ```
 
+At the time of pushing, was using these dependencies:
+```
+  "dependencies": {
+    "@angular/common": "2.1.1",
+ ...
+    "ionic-angular": "2.0.0-rc.3",
+    "ionic-native": "2.2.3",
+ ...
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "0.0.45",
+    "typescript": "2.0.6"
+  },
+```
+
+
+
 ## How to do it yourself.
 1. ionic start ProjectName --v2
 2. navigate to app/
