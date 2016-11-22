@@ -107,7 +107,7 @@ export class MyApp {
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
 ```
 
-6. Last thing open all your project html pages and add this button, this will add side menu button:
+6. Last thing open all your project html pages and add the menu button:
 ```
 Replace:
 <ion-header>
